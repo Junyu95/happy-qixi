@@ -300,6 +300,9 @@ const animationTimeline = () => {
   replyBtn.addEventListener("click", () => {
     tl.restart();
   });
+  // debugger;
+  //   var music = document.getElementById("dd");
+  //   music.play();
 };
 
 // Run fetch and animation in sequence
