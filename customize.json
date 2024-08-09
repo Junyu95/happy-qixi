@@ -1,11 +1,11 @@
 {
   "greeting": "Hiya",
-  "name": "Lydia222",
-  "greetingText": "I really like your name btw!",
-  "wishText": "May the js.prototypes always be with you! ;)",
-  "imagePath": "img/lydia2.png",
-  "text1": "It's your birthday!!! :D",
-  "textInChatBox": "Happy birthday to you!! Yeee! Many many happy blah...",
+  "name": "Ju zi",
+  "greetingText": "Today is Our Fourth QiXi!",
+  "wishText": "May the happyness and love always be with you! My princess! ;)",
+  "imagePath": "img/juzi2.png",
+  "text1": "This is our 1159th day together!!! :D",
+  "textInChatBox": "Happy QiXi Festival!! May many many Happy surround You...",
   "sendButtonLabel": "Send",
   "text2": "That's what I was going to do.",
   "text3": "But then I stopped.",
@@ -16,7 +16,7 @@
   "smiley": ":)",
   "bigTextPart1": "S",
   "bigTextPart2": "O",
-  "outroText": "Okay, now come back and tell me if you liked it.",
-  "replayText": "Or click, if you want to watch it again.",
+  "outroText": "I know I'm meant to be where I am.And I'm gonna be by your side.",
+  "replayText": "我知道，这是命运的安排。我会一直守护在你身边。",
   "outroSmiley": ":)"
 }

@@ -49,6 +49,13 @@ const animationTimeline = () => {
     opacity: 0,
     y: 20,
     rotationY: 5,
+    skewX: "-15deg",
+    delay: 1.5
+  };
+  const ideaTextTransLeaveNoDelay = {
+    opacity: 0,
+    y: 20,
+    rotationY: 5,
     skewX: "-15deg"
   };
 
@@ -140,7 +147,7 @@ const animationTimeline = () => {
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-4", 0.7, ideaTextTrans)
-    .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-4", 0.7, ideaTextTransLeaveNoDelay, "+=1.5")
     .from(
       ".idea-5",
       0.7,
@@ -297,22 +304,26 @@ const animationTimeline = () => {
     }, 1200);
 
     let clicks = 0;
+    var music = document.getElementById("dd");
     // 监听点击事件
     document.addEventListener('click',function(event) {
       if (clicks === 0) {
-        var music = document.getElementById("dd");
         music.play();
       }
       if (clicks % 2 === 0) {
+        if (clicks !== 0) {
+          music.play();
+          }
         tl.resume();
       } else {
+        music.pause();
         tl.pause();
       }
       clicks++;  
     });
 
   // tl.seek("currentStep");
-  // tl.timeScale(2);
+  // tl.timeScale(5);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
